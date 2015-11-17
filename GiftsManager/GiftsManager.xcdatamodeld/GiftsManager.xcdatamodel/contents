@@ -4,6 +4,7 @@
         <attribute name="date" optional="YES" attributeType="Date">
             <userInfo/>
         </attribute>
+        <attribute name="given" optional="YES" attributeType="Boolean" syncable="YES"/>
         <attribute name="note" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="person" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Person" syncable="YES"/>
         <userInfo/>
@@ -18,7 +19,7 @@
         <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Event" positionX="-11853" positionY="-7992" width="128" height="88"/>
+        <element name="Event" positionX="-11853" positionY="-7992" width="128" height="103"/>
         <element name="Gift" positionX="-12564" positionY="-8001" width="128" height="103"/>
         <element name="Person" positionX="-12186" positionY="-7956" width="128" height="58"/>
     </elements>
