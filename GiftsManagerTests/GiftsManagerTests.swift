@@ -26,6 +26,11 @@ class GiftsManagerTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
+    func testCellViewController() {
+    // should ensure that name is never nil, and the cell is connected to an item
+    }
+    
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock {

@@ -15,6 +15,9 @@
 		B6342DB41BFA22070084A86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6342DB31BFA22070084A86C /* Assets.xcassets */; };
 		B6342DB71BFA22070084A86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6342DB51BFA22070084A86C /* LaunchScreen.storyboard */; };
 		B6342DC21BFA22070084A86C /* GiftsManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6342DC11BFA22070084A86C /* GiftsManagerTests.swift */; };
+		B6342DCE1BFB53400084A86C /* CellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6342DCC1BFB53400084A86C /* CellView.xib */; };
+		B6342DD01BFB5FA90084A86C /* CellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6342DCF1BFB5FA90084A86C /* CellViewController.swift */; };
+		B6342DD21BFB64640084A86C /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = B6342DD11BFB64640084A86C /* Readme.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,9 @@
 		B6342DBD1BFA22070084A86C /* GiftsManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiftsManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6342DC11BFA22070084A86C /* GiftsManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsManagerTests.swift; sourceTree = "<group>"; };
 		B6342DC31BFA22070084A86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6342DCD1BFB53400084A86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/CellView.xib; sourceTree = "<group>"; };
+		B6342DCF1BFB5FA90084A86C /* CellViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellViewController.swift; sourceTree = "<group>"; };
+		B6342DD11BFB64640084A86C /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,7 @@
 		B6342D9B1BFA22070084A86C = {
 			isa = PBXGroup;
 			children = (
+				B6342DD11BFB64640084A86C /* Readme.md */,
 				B6342DA61BFA22070084A86C /* GiftsManager */,
 				B6342DC01BFA22070084A86C /* GiftsManagerTests */,
 				B6342DA51BFA22070084A86C /* Products */,
@@ -85,10 +92,12 @@
 				B6342DAC1BFA22070084A86C /* MasterViewController.swift */,
 				B6342DAE1BFA22070084A86C /* DetailViewController.swift */,
 				B6342DB01BFA22070084A86C /* Main.storyboard */,
+				B6342DCC1BFB53400084A86C /* CellView.xib */,
 				B6342DB31BFA22070084A86C /* Assets.xcassets */,
 				B6342DB51BFA22070084A86C /* LaunchScreen.storyboard */,
 				B6342DB81BFA22070084A86C /* Info.plist */,
 				B6342DA91BFA22070084A86C /* GiftsManager.xcdatamodeld */,
+				B6342DCF1BFB5FA90084A86C /* CellViewController.swift */,
 			);
 			path = GiftsManager;
 			sourceTree = "<group>";
@@ -183,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6342DCE1BFB53400084A86C /* CellView.xib in Resources */,
 				B6342DB71BFA22070084A86C /* LaunchScreen.storyboard in Resources */,
 				B6342DB41BFA22070084A86C /* Assets.xcassets in Resources */,
 				B6342DB21BFA22070084A86C /* Main.storyboard in Resources */,
@@ -203,7 +213,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6342DD01BFB5FA90084A86C /* CellViewController.swift in Sources */,
 				B6342DA81BFA22070084A86C /* AppDelegate.swift in Sources */,
+				B6342DD21BFB64640084A86C /* Readme.md in Sources */,
 				B6342DAB1BFA22070084A86C /* GiftsManager.xcdatamodeld in Sources */,
 				B6342DAD1BFA22070084A86C /* MasterViewController.swift in Sources */,
 				B6342DAF1BFA22070084A86C /* DetailViewController.swift in Sources */,
@@ -243,6 +255,14 @@
 				B6342DB61BFA22070084A86C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B6342DCC1BFB53400084A86C /* CellView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6342DCD1BFB53400084A86C /* Base */,
+			);
+			name = CellView.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
